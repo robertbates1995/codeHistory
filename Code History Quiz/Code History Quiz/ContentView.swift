@@ -9,19 +9,64 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-        Text("Hello, test! I'm manipulating this text in multiple ways!")
-            .bold()
-            .padding()
-            .border(Color.black, width: 1.0)
-            .font(.title)
-            .multilineTextAlignment(TextAlignment.center)
+        NavigationView{
+            VStack {
+                Text("Items in Stock")
+                    .font(.title)
+                    .padding()
+                Spacer()
+                NavigationLink(
+                    destination: ItemDetailView(itemName: "Shrimp Chips"),
+                    label: {
+                        Text("Shrimp Chips")
+                    })
+                Spacer()
+            }
         }
     }
 }
 
+struct ItemDetailView: View {
+    @State var quantityRemaining = Int.random(in: 1...10)
+    let itemName: String
+    
+    var body: some View {
+        VStack {
+            Text("\(itemName)")
+                .font(.title)
+                .padding()
+            Spacer()
+            Image(systemName: "photo")
+                .font(.system(size: 200))
+                .padding()
+            Text("Quantity Remaining: \(quantityRemaining)")
+            Spacer()
+            Button {
+                if quantityRemaining > 0 {
+                    quantityRemaining -= 1
+                }
+            } label: {
+                Text("Add one to your cart")
+            }
+            Spacer()
+        }
+        .background(
+              // The navigation link is not active until the quantity is 0
+              NavigationLink(destination: Text("You bought all the \(itemName)!"),
+                             isActive: .constant(quantityRemaining == 0),
+                             label: { EmptyView() })
+              )
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+    static var previews: some View{
         ContentView()
+    }
+}
+
+struct ItemDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        ItemDetailView(itemName: "Test Item")
     }
 }
