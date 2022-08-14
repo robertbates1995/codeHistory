@@ -21,7 +21,17 @@ struct ContentView: View {
                         Text("Shrimp Chips")
                     })
                 Spacer()
+                NavigationLink(
+                    destination: ItemDetailView(itemName: "Bueno"),
+                    label: {
+                        Text("Bueno")
+                    })
+                Spacer()
             }
+            // Sets a navigation title of "Ligaya's Store"
+               .navigationTitle(Text("Bobby's Store"))
+               // Sets the styling of the navigation title to inline
+               .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
