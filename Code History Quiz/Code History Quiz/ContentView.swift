@@ -18,7 +18,9 @@ struct ContentView: View {
     let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
  
     var body: some View {
-        // View implementation
+        ZStack{
+            mainColor
+        }
     }
 }
 
