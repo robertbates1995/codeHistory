@@ -11,7 +11,6 @@
 		7A0212D22881CE1E005D5A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0212D12881CE1E005D5A42 /* ContentView.swift */; };
 		7A0212D42881CE20005D5A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0212D32881CE20005D5A42 /* Assets.xcassets */; };
 		7A0212D72881CE20005D5A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0212D62881CE20005D5A42 /* Preview Assets.xcassets */; };
-		7A31030A28A9B0D200D3110F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030928A9B0D200D3110F /* WelcomeView.swift */; };
 		7A31030C28A9B7E400D3110F /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030B28A9B7E400D3110F /* question.swift */; };
 		7A31030E28AC4FD300D3110F /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		7A0212D12881CE1E005D5A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A0212D32881CE20005D5A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0212D62881CE20005D5A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A31030928A9B0D200D3110F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7A31030B28A9B7E400D3110F /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 		7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +58,6 @@
 			children = (
 				7A0212CF2881CE1E005D5A42 /* Code_History_QuizApp.swift */,
 				7A31030B28A9B7E400D3110F /* question.swift */,
-				7A31030928A9B0D200D3110F /* WelcomeView.swift */,
 				7A0212D12881CE1E005D5A42 /* ContentView.swift */,
 				7A0212D32881CE20005D5A42 /* Assets.xcassets */,
 				7A0212D52881CE20005D5A42 /* Preview Content */,
@@ -148,7 +145,6 @@
 			files = (
 				7A0212D22881CE1E005D5A42 /* ContentView.swift in Sources */,
 				7A31030C28A9B7E400D3110F /* question.swift in Sources */,
-				7A31030A28A9B0D200D3110F /* WelcomeView.swift in Sources */,
 				7A0212D02881CE1E005D5A42 /* Code_History_QuizApp.swift in Sources */,
 				7A31030E28AC4FD300D3110F /* ChoiceTextView.swift in Sources */,
 			);
