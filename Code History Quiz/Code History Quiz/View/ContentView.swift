@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let question = Question(
-        questionText: "What was the first computer bug?",
-        possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
-        correctAnswerIndex: 2)
+    let question = Question( questionText: "Who invented the World Wide Web?", possibleAnswers: ["Steve Jobs", "Linus Torvalds", "Bill Gates", "Tim Berners-Lee"], correctAnswerIndex: 3)
     
     @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
     
