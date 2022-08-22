@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     
     let question = Question( questionText: "Who invented the World Wide Web?", possibleAnswers: ["Steve Jobs", "Linus Torvalds", "Bill Gates", "Tim Berners-Lee"], correctAnswerIndex: 3)
     
@@ -41,5 +41,4 @@ struct ContentView: View {
             .foregroundColor(.white)
         }
     }
-    
 }

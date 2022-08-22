@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7A0212D02881CE1E005D5A42 /* Code_History_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0212CF2881CE1E005D5A42 /* Code_History_QuizApp.swift */; };
-		7A0212D22881CE1E005D5A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0212D12881CE1E005D5A42 /* ContentView.swift */; };
+		7A0212D22881CE1E005D5A42 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0212D12881CE1E005D5A42 /* GameView.swift */; };
 		7A0212D42881CE20005D5A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0212D32881CE20005D5A42 /* Assets.xcassets */; };
 		7A0212D72881CE20005D5A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0212D62881CE20005D5A42 /* Preview Assets.xcassets */; };
 		7A31030C28A9B7E400D3110F /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030B28A9B7E400D3110F /* question.swift */; };
 		7A31030E28AC4FD300D3110F /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */; };
 		7A803DA328AEE3AE009B76AD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DA228AEE3AE009B76AD /* Game.swift */; };
+		7A803DA728AF16BE009B76AD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DA628AF16BE009B76AD /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A0212CC2881CE1E005D5A42 /* Code History Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0212CF2881CE1E005D5A42 /* Code_History_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_History_QuizApp.swift; sourceTree = "<group>"; };
-		7A0212D12881CE1E005D5A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0212D12881CE1E005D5A42 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7A0212D32881CE20005D5A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0212D62881CE20005D5A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A31030B28A9B7E400D3110F /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 		7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		7A803DA228AEE3AE009B76AD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7A803DA628AF16BE009B76AD /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,9 @@
 		7A803DA528AEE409009B76AD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A0212D12881CE1E005D5A42 /* ContentView.swift */,
+				7A0212D12881CE1E005D5A42 /* GameView.swift */,
 				7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */,
+				7A803DA628AF16BE009B76AD /* WelcomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,7 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0212D22881CE1E005D5A42 /* ContentView.swift in Sources */,
+				7A0212D22881CE1E005D5A42 /* GameView.swift in Sources */,
+				7A803DA728AF16BE009B76AD /* WelcomeView.swift in Sources */,
 				7A803DA328AEE3AE009B76AD /* Game.swift in Sources */,
 				7A31030C28A9B7E400D3110F /* question.swift in Sources */,
 				7A0212D02881CE1E005D5A42 /* Code_History_QuizApp.swift in Sources */,

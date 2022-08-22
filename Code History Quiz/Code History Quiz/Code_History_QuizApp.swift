@@ -11,7 +11,8 @@ import SwiftUI
 struct Code_History_QuizApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
+            //GameView()
         }
     }
 }
