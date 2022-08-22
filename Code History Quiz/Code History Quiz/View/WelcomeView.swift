@@ -9,8 +9,8 @@ import SwiftUI
 
 struct WelcomeView: View {
     
-    var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    var accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    var mainColor = GameColor.main
+    var accentColor = GameColor.accent
 
     var body: some View {
         NavigationView {
@@ -26,18 +26,12 @@ struct WelcomeView: View {
                             .padding()
                     }
                     Spacer()
-                    NavigationLink(destination: GameView(), label: {
-                        HStack{
-                            Spacer()
-                            Text("Okay, let's go!")
-                                .font(.body)
-                                .bold()
-                                .padding()
-                            Spacer()
-                        }.background(accentColor)
-                    })
-                }
-                .foregroundColor(.white)
+                    NavigationLink(
+                        destination: GameView(),
+                        label: {
+                            BottomTextView(str: "Okay, let's go!")
+                        })
+                }.foregroundColor(.white)
             }
         }
     }

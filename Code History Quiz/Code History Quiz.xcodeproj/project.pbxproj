@@ -15,6 +15,8 @@
 		7A31030E28AC4FD300D3110F /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */; };
 		7A803DA328AEE3AE009B76AD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DA228AEE3AE009B76AD /* Game.swift */; };
 		7A803DA728AF16BE009B76AD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DA628AF16BE009B76AD /* WelcomeView.swift */; };
+		7A803DA928B41C27009B76AD /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DA828B41C27009B76AD /* GameColor.swift */; };
+		7A803DAB28B4277C009B76AD /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803DAA28B4277C009B76AD /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		7A803DA228AEE3AE009B76AD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7A803DA628AF16BE009B76AD /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7A803DA828B41C27009B76AD /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		7A803DAA28B4277C009B76AD /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +92,11 @@
 		7A803DA528AEE409009B76AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7A803DA828B41C27009B76AD /* GameColor.swift */,
 				7A0212D12881CE1E005D5A42 /* GameView.swift */,
 				7A31030D28AC4FD300D3110F /* ChoiceTextView.swift */,
 				7A803DA628AF16BE009B76AD /* WelcomeView.swift */,
+				7A803DAA28B4277C009B76AD /* BottomTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 				7A803DA728AF16BE009B76AD /* WelcomeView.swift in Sources */,
 				7A803DA328AEE3AE009B76AD /* Game.swift in Sources */,
 				7A31030C28A9B7E400D3110F /* question.swift in Sources */,
+				7A803DAB28B4277C009B76AD /* BottomTextView.swift in Sources */,
+				7A803DA928B41C27009B76AD /* GameColor.swift in Sources */,
 				7A0212D02881CE1E005D5A42 /* Code_History_QuizApp.swift in Sources */,
 				7A31030E28AC4FD300D3110F /* ChoiceTextView.swift in Sources */,
 			);

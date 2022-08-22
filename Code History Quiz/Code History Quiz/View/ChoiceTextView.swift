@@ -10,7 +10,7 @@ import SwiftUI
 struct ChoiceTextView: View {
     //how is this string specified?
     let choiceText: String
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    let accentColor = GameColor.accent
     
     var body: some View {
         Text(choiceText)
