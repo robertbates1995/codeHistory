@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ChoiceTextView: View {
-    //how is this string specified?
     let choiceText: String
     let accentColor = GameColor.accent
     
