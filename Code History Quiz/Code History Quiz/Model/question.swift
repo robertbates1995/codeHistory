@@ -17,4 +17,7 @@ struct Question: Hashable {
         Question( questionText: "What was the first object oriented programming language?", possibleAnswers: ["Simula", "Python", "Swift", "C"], correctAnswerIndex: 0),
         Question( questionText: "What was the first computer bug?", possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"], correctAnswerIndex: 2)
     ]
+    
+    func isCorrectAnswer(foo: String) -> Bool {foo == possibleAnswers[correctAnswerIndex]
+    }
 }
