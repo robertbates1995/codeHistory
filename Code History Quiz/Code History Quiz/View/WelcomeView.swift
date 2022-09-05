@@ -33,7 +33,7 @@ struct WelcomeView: View {
                         })
                 }.foregroundColor(.white)
             }
-        }
+        }.navigationBarHidden(true)
     }
 }
 
